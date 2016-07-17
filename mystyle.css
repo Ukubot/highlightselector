@@ -23,28 +23,57 @@ a {
 
 .middle-text {
   width: 800px;
-  margin-left: calc(50% - 400px);
-  margin-right: auto;
+  padding-left: calc(50% - 400px);
+  padding-right: auto;
   margin-top: 200px;
 }
 
 .tpc1 {
-  border-bottom: 0.1em solid red;
+  border-bottom: 0.05em solid red;
+}
+.tpc1:hover {
+  color: red;
+  transition-duration: 0.2s;
 }
 .tpc2 {
-  border-bottom: 0.1em solid blue;
+  border-bottom: 0.05em solid blue;
+}
+.tpc2:hover {
+  color: blue;
+  transition-duration: 0.2s;
 }
 .tpc3 {
-  border-bottom: 0.1em solid green;
+  border-bottom: 0.05em solid green;
+}
+.tpc3:hover {
+  color: green;
+  transition-duration: 0.2s;
 }
 .tpc4 {
-  border-bottom: 0.1em solid yellow;
+  border-bottom: 0.05em solid yellow;
 }
-
+.tpc4:hover {
+  color: yellow;
+  transition-duration: 0.2s;
+}
 a:after {
   content: "";
   display: table-caption;
   caption-side: bottom;
   position: relative;
   margin-top:-0.15em;
+}
+
+
+.background-topic {
+  display: flex;
+  margin-top: 100px;
+  width: 203px;
+}
+
+.background-square {
+  display: flex;
+width: 100px;
+height: 100px;
+border: solid gray 1px;
 }
